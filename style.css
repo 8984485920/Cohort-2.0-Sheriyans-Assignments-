@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#introduction {
+    background-color: #080854;
+    color: white;
+    height: 30%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.italic {
+    font-style: oblique;
+}
+
+#about {
+    background-color: gainsboro;
+    margin: 5%;
+    text-align: center;
+    height: 24%;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#education {
+    background-color: #a7ddf2;
+    margin: 5%;
+    text-align: center;
+    height: 30%;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.rectangleBox {
+    background-color: whitesmoke;
+    width: 70%;
+    margin-left: 18%;
+    border-radius: 5px;
+    height: 17%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+#skills {
+    background-color: hsl(60, 47%, 83%);
+    margin: 5%;
+    text-align: center;
+    height: 45%;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#projects {
+    background-color: #e09ee0;
+    margin: 5%;
+    text-align: center;
+    height: 30%;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#contactMe {
+    background-color: rgb(200, 245, 200);
+    margin: 5%;
+    text-align: center;
+    height: 35%;
+    border-radius: 10px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+footer {
+    height: 10%;
+    background-color: #080854;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+}
