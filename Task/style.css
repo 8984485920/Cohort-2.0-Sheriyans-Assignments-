@@ -1,0 +1,56 @@
+@font-face {
+    font-family: Horror;
+    src: url(./Freakdrip.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+.heading {
+    font-family: Horror;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-image: url(https://plus.unsplash.com/premium_photo-1724209465095-9471e360dfe8?q=80&w=764&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: black;
+    color: whitesmoke;
+}
+
+button {
+    margin: 20px 10px 0px 2px;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: hsl(0, 100%, 50%);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: hsl(0, 100%, 30%);
+}
+
+button:active {
+    background-color: hsl(0, 100%, 50%);
+}
+
+summary {
+    margin: 10px;
+    cursor: pointer;
+}
